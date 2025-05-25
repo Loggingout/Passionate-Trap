@@ -7,10 +7,11 @@
     <script type="module" src="./js/main.js"></script>
   </head>
   <body>  
+    <!--Beginning of Header with Nav links & profile buttons -->
   <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Djak Website</a>
+                <a class="navbar-brand" href="#">Passionate Trap</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -22,6 +23,11 @@
                             <li><a class="dropdown-item" href="#">Home</a></li>
                             <li><a class="dropdown-item" href="#">Recent Posts</a></li>
                             <li><a class="dropdown-item" href="#">New In Town</a></li>
+                            <li><a class="dropdown-item" href="#">Fetish Handlers</a></li>
+                            <button class="btn btn-warning" type="button">Create Account</button>
+                            <button class="btn btn-warning" type="button">Login</button>
+                            <button class="btn btn-warning" type="button">Logout</button>
+                            <button class="btn btn-warning" type="button">Profile</button>
                         </ul>
                         </li>
                     </ul>
@@ -29,5 +35,27 @@
             </div>
         </nav>
     </header>
+    <!--End of Header with Nav links & profile buttons -->
+    <main>
+        <section>
+            <div class="container-fluid">
+                <!-- Beginning of Slogan Content-->
+                <div class="">
+                    <h1 class="text-center">Welcome to Passionate Trap</h1>
+                    <p class="text-center">Your one-stop destination for all things passionate.</p>
+                </div>
+                <!-- End of Slogan Content-->
+
+                <!-- Beginning of Recent Posts Content -->
+                 <div class="row">
+                    <div class="col">
+                        <h2>Recent Posts</h2>
+                        <ul class="" id="recent-posts"></ul>
+                    </div>
+                 </div>
+                <!-- End of Recent Posts Content -->
+            </div>
+        </section>
+    </main>
   </body>
 </html>
