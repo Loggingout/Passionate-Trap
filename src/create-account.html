@@ -24,10 +24,10 @@
                             <li><a class="dropdown-item" href="#">Recent Posts</a></li>
                             <li><a class="dropdown-item" href="#">New In Town</a></li>
                             <li><a class="dropdown-item" href="#">Fetish Handlers</a></li>
-                            <button class="btn btn-warning" type="button"><a href="create-account.html">Create Account</a></button>
-                            <button class="btn btn-warning" type="button"><a href="login.html">Login</a></button>
-                            <button class="btn btn-warning" type="button"><a href="logout.html">Logout</a></button>
-                            <button class="btn btn-warning" type="button"><a href="profile.html">Profile</a></button>
+                            <button class="btn btn-warning" type="button">Create Account</button>
+                            <button class="btn btn-warning" type="button">Login</button>
+                            <button class="btn btn-warning" type="button">Logout</button>
+                            <button class="btn btn-warning" type="button">Profile</button>
                         </ul>
                         </li>
                     </ul>
@@ -37,25 +37,28 @@
     </header>
     <!--End of Header with Nav links & profile buttons -->
     <main>
+        <!-- Beginning of Create Account Section -->
         <section>
             <div class="container-fluid">
-                <!-- Beginning of Slogan Content-->
-                <div class="">
-                    <h1 class="text-center">Welcome to Passionate Trap</h1>
-                    <p class="text-center">Your one-stop destination for all things passionate.</p>
-                </div>
-                <!-- End of Slogan Content-->
-
-                <!-- Beginning of Recent Posts Content -->
-                 <div class="row">
-                    <div class="col">
-                        <h2>Recent Posts</h2>
-                        <ul class="" id="recent-posts"></ul>
+                <h1 class="text-center">Create Account</h1>
+                <form>
+                    <div class="mb-3">
+                        <label for="username" class="form-label">Username</label>
+                        <input type="text" class="form-control" id="username" required>
                     </div>
-                 </div>
-                <!-- End of Recent Posts Content -->
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Create Account</button>
+                </form>
             </div>
         </section>
+        <!-- End of Create Account Section -->
     </main>
   </body>
 </html>
