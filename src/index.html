@@ -28,7 +28,17 @@
                             <li><button class="btn btn-warning m-2 p-1" type="button"><a href="create-account.html">Create Account</a></button></li>
                             <li><button class="btn btn-warning m-2 p-1" type="button"><a href="login.html">Login</a></button></li>
                             <li><button class="btn btn-warning m-2 p-1" type="button"><a href="logout.html">Logout</a></button></li>
-                            <li><button class="btn btn-warning m-2 p-1" type="button"><a href="profile.html">Profile</a></button></li>
+                                <div class="dropdown">
+                                    <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" role="menu">
+                                        Profile
+                                    </button>
+                                    <ul class="dropdown-menu position-absolute start-0">
+                                        <li><a class="dropdown-item" href="#">Edit Profile</a></li>
+                                        <li><a class="dropdown-item" href="#">Account Settings</a></li>
+                                        <li><a class="dropdown-item" href="#">Privacy Settings</a></li>
+                                    </ul>
+                                </div>
+                            </div>
                         </ul>
                         </li>
                     </ul>
@@ -36,16 +46,7 @@
             </div>
 
             <!--Profile settings-->
-            <div class="dropdown">
-                <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" role="menu">
-                    Profile
-                </button>
-                <ul class="dropdown-menu position-absolute start-0">
-                    <li><a class="dropdown-item" href="#">Edit Profile</a></li>
-                    <li><a class="dropdown-item" href="#">Account Settings</a></li>
-                    <li><a class="dropdown-item" href="#">Privacy Settings</a></li>
-                </ul>
-            </div>
+            
             <!--End of Profile settings-->
         </nav>
     </header>
