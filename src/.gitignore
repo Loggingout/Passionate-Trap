@@ -1,0 +1,4 @@
+# This is a file that will ignore certain files and directories from being pushed to live.
+.env
+server.js
+node_modules
